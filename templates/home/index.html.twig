@@ -3,5 +3,35 @@
 {% block title %}Hello HomeController!{% endblock %}
 
 {% block body %}
-
+    <!-- Bannière -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="{{ asset('img/26.jpeg') }}" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Le Coeur sur la main</h5>
+                    <p>Toujours en action</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Présentation -->
+    <div class="d-flex justify-content-center">
+        <div class="w-25">
+            <img src="{{ asset('img/6.jpg') }}" alt="Présentation">
+        </div>
+        <div class="w-25">
+            <h1>QUI NOUS SOMMES</h1>
+            <p>Cette association a pour but d’apporter une assistance morale et financière aux individus handicapés ayant du mal à s’insérer dans le monde du travail, aux enfants en situation de pauvreté extrême, aux enfants et plus particulièrement au jeunes filles non scolarisées, aux albinos abandonnés et rejetés par la société, aux veuves qui sont en situation difficile et toute autres nécessiteux de la société.
+                <br/>En outre, un des grands objectifs de l’association sera sa contribution à la construction d’un orphelinat, projet porté par le Membre du conseil d’administration M. Lamarana BAH.
+                <br/>L’association organise des récoltes de fonds et des évènements caritatifs afin de récolter de quoi faire les dons hebdomadaires.
+            </p>
+        </div>
+    </div>
+    <!--  -->
+    <!--  -->
+    <!--  -->
 {% endblock %}
