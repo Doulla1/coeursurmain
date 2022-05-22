@@ -1,0 +1,20 @@
+{
+  "name": "sass_package",
+  "version": "1.0.0",
+  "description": "Sass package",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./public/CSS/main.scss:./public/CSS/main.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doulla1/coeursurmain.git"
+  },
+  "author": "Doulla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Doulla1/coeursurmain/issues"
+  },
+  "homepage": "https://github.com/Doulla1/coeursurmain#readme",
+  "dependencies": {}
+}
